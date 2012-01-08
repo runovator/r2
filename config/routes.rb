@@ -1,4 +1,8 @@
 R2::Application.routes.draw do
+  resources :microposts
+
+  resources :users
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
